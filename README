@@ -1,0 +1,21 @@
+
+Prerequisites:
+
+|         Arch          |   Debian/Ubuntu | macOS (Brew) |
+| --------------------- | --------------- | ------------ |
+| gcc                   | build-essential | gcc          |
+| cmake                 | cmake           | cmake        |
+| glfw-x11/glfw-wayland | libglfw3-dev    | glfw         |
+| glew                  | libglew-dev     | glew         |
+| glm                   | libglm-dev      | glm          |
+| assimp                | libassimp-dev   | assimp       |
+
+How to build:
+
+mkdir build && cmake .. && make
+
+(just `make` from later on)
+
+
+How to run:
+Ensure pwd is outside build, i.e. run `build/indoor`
